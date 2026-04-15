@@ -31,7 +31,7 @@ def run_quiz():
 
     score = 0
 
-    print("\n📘 Welcome to the Quiz Application!\n")
+    print("\n Welcome to the Quiz Application!\n")
 
     for i, q in enumerate(questions, start=1):
         print(f"Q{i}. {q['question']}")
